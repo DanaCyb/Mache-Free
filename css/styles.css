@@ -1,18 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,900|Montserrat');
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(../img/Prostok%C4%85t_1_kopia_3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+
 
 #main {
-    /*position: absolute;
-    top: 279px;
-    left: 682px;
-    width: 638px;
-    height: 36px;
-    color: #ffffff;*/
     font-family: Lato;
     font-size: 26px;
     font-weight: 300;
     line-height: 24px;
     text-align: center;
-
+    color: #ffffff;
 }
 
 .mache {
