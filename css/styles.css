@@ -14,6 +14,47 @@ header {
     height: auto;
 }
 
+.logo {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+ul {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0;
+    list-style-type: none;
+    float: right;
+}
+
+li {
+    line-height: 10px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffffff;
+    list-style: none;
+    display: inline-block;
+    padding-right: 12px;
+    padding-left: 12px;
+    transition: all 0.7s ease-in-out 0.7s;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: blue;
+    background-color: #CCC;
+}
 
 #main {
     font-family: Lato;
@@ -40,8 +81,9 @@ h1 {
     line-height: 24px;
 }
 
-h3 {
+header h3 {
     color: #ffffff;
+    text-align: left;
 }
 font-family: 'Lato', sans-serif;
 font-family: 'Montserrat', sans-serif;
