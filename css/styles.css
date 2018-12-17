@@ -184,12 +184,13 @@ font-family: 'Montserrat', sans-serif;
 /* section about*/
 
 #about {
-    background-image: url(../img/Prostok%C4%85t_1_kopia.png);
-    background-size: 1000 1000;
+    background-image: url('../img/Prostok%C4%85t_1_kopia.png');
+    background-size: cover;
     background-repeat: no-repeat;
-    max-width: 600;
-    height: auto;
+    height: 646px;
+
 }
+
 .text {
     position: relative;
 }
@@ -197,64 +198,62 @@ font-family: 'Montserrat', sans-serif;
     width: 400px;
     height: 85px;
     color: #5a5a5a;
-    font-family: 'Lato - Light Italic';
-    font-size: 38px;
+    font-family: 'Lato';
+    font-style: italic;
+    font-size: 28px;
     font-weight: 400;
-    line-height: 52px;
+    line-height: 50px;
     letter-spacing: 0.95px;
     left:0;
     right:0;
     margin: auto;
-    padding-top: 150px;
+    padding-top: 100px;
 }
 
 .text h3::after {
     content:"";
     position: absolute;
     width: 200px;
-    top: 300px;
+    top: 230px;
     left: -200px;
-    right:0;
-    margin:auto;
+    right: 0;
+    margin: 0 auto;
     border: 1px solid #ed145b;
     display: block;
 }
 
 .text p {
     position: absolute;
-    top: 300px;
+    top: 250px;
     width: 475px;
     height: 165px;
     right: 0;
-    left: 70px;
+    left: 60px;
     margin: auto;
     color: #5a5a5a;
-    font-family: Lato;
+    font-family: 'Lato';
     font-size: 15px;
     font-weight: 300;
-    line-height: 30px;
+    line-height: 22px;
     letter-spacing: 0.38px;
-    padding-top: 50px;
 }
+
 .text a {
-    position: absolute;
+   position: absolute;
     text-decoration: none;
-    display: block;
     color: #000000;
     right: 0;
-    left: -200px;
-    margin: auto;
-    top: 500px;
-    width: 211px;
+    left: 55px;
+    top: 450px;
+    width: 200px;
     height: 12px;
     color: #ed145b;
-    font-family: Lato;
+    font-family: 'Lato';
     font-size: 15px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 22px;
     text-transform: uppercase;
     letter-spacing: 0.38px;
-    padding-top: 20px;
 }
 
 .images {
@@ -262,13 +261,21 @@ font-family: 'Montserrat', sans-serif;
 
 }
 .mac {
-    width: 650px;
-    height: 483px;
-    top: 70px;
+    width: 725px;
+    height: 580px;
+    top: 20px;
     left: 0;
     right: 0;
-    position: absolute;
+    margin: 0;
+    z-index: 3;
+    padding-bottom: 0;
+    padding-top: 60px;
 }
+
 .shadow {
-    width:600px;
-}
+    top: 0;
+    width: 725px;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
