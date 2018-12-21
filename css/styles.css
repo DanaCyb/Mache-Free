@@ -256,6 +256,24 @@ font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.38px;
 }
 
+.arrow {
+    margin: 20px;
+}
+
+.arrow::after {
+    content:"";
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    top: 0;
+    left: 70px;
+    right:0;
+    margin: auto;
+    border: 1px solid #ed145b;
+    border-radius: 50%;
+    display: block;
+}
+
 .images {
     position: relative;
 
