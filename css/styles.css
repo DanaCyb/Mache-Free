@@ -184,10 +184,14 @@ font-family: 'Montserrat', sans-serif;
 /* section about*/
 
 #about {
-    background-image: url('../img/Prostok%C4%85t_1_kopia.png');
+    background-image: url(img/Prostok%C4%85t_1_kopia.png);
+    z-index: -1;
+    position: absolute;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 646px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: auto;
 
 }
 
