@@ -315,6 +315,51 @@ font-family: 'Montserrat', sans-serif;
     text-align: center;
     margin-bottom: 100px;
     margin-top: 50px;
+    position: relative;
+}
+
+.head h3 {
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 397px;
+    height: 29px;
+    color: #5a5a5a;
+    font-family: "Lato - Light Italic";
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0.95px;
+}
+
+.head h3::after {
+    content:"";
+    position: absolute;
+    width: 22px;
+    top: 100px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: block;
+    width: 200px;
+    height: 2px;
+    background-color: #ed145b;
+}
+
+.head p {
+    width: 690px;
+    height: 44px;
+    color: #5a5a5a;
+    font-family: 'Lato';
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0.38px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-top: 100px;
 }
 
 .part {
@@ -328,17 +373,26 @@ font-family: 'Montserrat', sans-serif;
     left:0;
     right: 0;
     margin: auto;
+    width: 145px;
+    height: 12px;
+    color: #ed145b;
+    font-family: 'Lato';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.38px;
 }
 
 .icon {
     position: absolute;
     top: 0;
-    left: 0;
-    right: 0;
-    margin: 5px;
-    width: 50px;
-    height: 50px;
+    left: 5px;
+    right: 10px;
+    margin: auto;
+
 }
+
 .icon::after {
     content:"";
     position: absolute;
@@ -348,7 +402,8 @@ font-family: 'Montserrat', sans-serif;
     left: 0;
     right: 0;
     margin: auto;
-    border: 1px solid #ed145b;
+    border: 1px solid rgba(0, 0, 0, 0.3);
     border-radius: 50%;
     display: block;
 }
+
