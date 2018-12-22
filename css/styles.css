@@ -310,3 +310,13 @@ font-family: 'Montserrat', sans-serif;
     z-index: 4;
     position: absolute;
 }
+
+/* section our services */
+
+.head {
+    text-align: center;
+}
+
+.part {
+    text-align: center;
+}
