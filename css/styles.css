@@ -18,7 +18,7 @@ header {
 header::after {
     content:"";
     position: absolute;
-    width: 1103px;
+    width: 1105px;
     top: 555px;
     left: -10px;
     border: 78px solid #ed145b;
@@ -184,15 +184,11 @@ font-family: 'Montserrat', sans-serif;
 /* section about*/
 
 #about {
-    background-image: url(img/Prostok%C4%85t_1_kopia.png);
-    z-index: -1;
-    position: absolute;
-    background-size: cover;
+    background-image: url("../img/Prostok%C4%85t_3.png");
     background-repeat: no-repeat;
     max-width: 100%;
-    height: auto;
+    max-height: 100%;
     margin-bottom: auto;
-
 }
 
 .text {
@@ -261,7 +257,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .arrow {
-    margin: 20px;
+    margin: 21px;
 }
 
 .arrow::after {
@@ -269,7 +265,7 @@ font-family: 'Montserrat', sans-serif;
     position: absolute;
     height: 22px;
     width: 22px;
-    top: 0;
+    top: -1px;
     left: 70px;
     right:0;
     margin: auto;
