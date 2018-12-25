@@ -183,8 +183,15 @@ font-family: 'Lato', sans-serif;
 font-family: 'Montserrat', sans-serif;
 /* section about*/
 
-#about {
-    background-image: url("../img/Prostok%C4%85t_3.png");
+#about{
+    background-image: url(../img/Prostok%C4%85t_1_kopia.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1000px;
+}
+
+#about{
+    background-image: url(../img/Prostok%C4%85t_1_kopia.png);
     background-repeat: no-repeat;
     width: 100%;
     height: 500px;
@@ -407,3 +414,12 @@ font-family: 'Montserrat', sans-serif;
     display: block;
 }
 
+/* section quotes */
+
+#quotes{
+    background-image: url(../img/Prostok%C4%85t_1_kopia_3.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    margin-top: 600px;
+}
