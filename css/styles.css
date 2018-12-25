@@ -458,3 +458,23 @@ font-family: 'Montserrat', sans-serif;
     line-height: 40px;
     letter-spacing: 0.63px;
 }
+
+#quotes img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.visibility {
+    visibility: visible;
+}
+.dobule>.visibility:hover {
+    visibility: hidden;
+}
+.hidden {
+   visibility: hidden;
+}
+.dobule>.hidden:hover{
+    visibility: visible;
+}
+
