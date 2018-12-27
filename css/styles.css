@@ -668,12 +668,12 @@ Wszystko przy pomocy RODZICA .double - wskazujemy na daną klasę za pomocą ">"
 
 .bottom {
     position: relative;
-    top: 350px;
+    top: 360px;
     left: 0;
     right: 0;
     margin: auto;
     width: 200px;
-    height: 50px;
+    height: 45px;
     border-radius: 25px;
     background-color: #ed145b;
 }
@@ -681,10 +681,10 @@ Wszystko przy pomocy RODZICA .double - wskazujemy na daną klasę za pomocą ">"
 .bottom h4 {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 10px;
     right: 0;
     margin: auto;
-    padding-top: 5px;
+    padding-top: 3px;
     width: 84px;
     height: 12px;
     color: #f4f4f4;
@@ -727,10 +727,10 @@ Wszystko przy pomocy RODZICA .double - wskazujemy na daną klasę za pomocą ">"
     font-family: 'Lato';
     font-size: 15px;
     font-weight: 300;
-    line-height: 36px;
+    line-height: 30px;
     letter-spacing: 0.38px;
     width: 190px;
-    height: 28px;
+    height: 20px;
 }
 
 .midded ul {
@@ -740,7 +740,7 @@ Wszystko przy pomocy RODZICA .double - wskazujemy na daną klasę za pomocą ">"
     right: 0;
     margin: auto;
     width: 190px;
-    height: 128px;
+    height: 120px;
     text-align:center;
     padding-bottom: 10px;
 }
