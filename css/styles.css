@@ -502,7 +502,7 @@ Wszystko przy pomocy RODZICA .double - wskazujemy na daną klasę za pomocą ">"
     background-image: url(../img/Prostok%C4%85t_9.png);
     background-repeat: no-repeat;
     width: 100%;
-    height: 500px;
+    height: 800px;
     margin: 0;
     padding: 0;
     position: relative;
@@ -554,4 +554,77 @@ Wszystko przy pomocy RODZICA .double - wskazujemy na daną klasę za pomocą ">"
     font-weight: 300;
     line-height: 30px;
     letter-spacing: 0.38px;
+}
+
+/*options*/
+
+.options {
+    position: absolute;
+    top: 350px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.standard {
+
+}
+.top .num {
+    width: 56px;
+    height: 38px;
+    color: #f4f4f4;
+    font-family: 'Lato';
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 1.25px;
+}
+.top p {
+    height: 15px;
+    color: #f4f4f4;
+    font-family: 'Lato';
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.38px;
+}
+
+.top h3 {
+    width: 84px;
+    height: 12px;
+    color: #5a5a5a;
+    font-family:' Lato';
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 38px;
+    text-transform: uppercase;
+    letter-spacing: 0.38px;
+}
+
+.top span {
+    width: 11px;
+    height: 19px;
+    color: #f4f4f4;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.5px;
+}
+
+.top {
+    width: 262px;
+    height: 150px;
+    background-color: #5a5a5a;
+}
+.mid {
+
+}
+
+.bottom {
+
+}
+
+.red {
+
 }
