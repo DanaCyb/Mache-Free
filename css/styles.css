@@ -644,7 +644,7 @@ Wszystko przy pomocy RODZICA .double - wskazujemy na daną klasę za pomocą ">"
     left: 0;
     right: 0;
     margin: auto;
-    top: 110px;
+    padding-top: 5px;
 }
 
 .mid {
