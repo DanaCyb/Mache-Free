@@ -744,3 +744,13 @@ Wszystko przy pomocy RODZICA .double - wskazujemy na daną klasę za pomocą ">"
     text-align:center;
     padding-bottom: 10px;
 }
+
+/*sekction aditionalInfo*/
+
+#aditionalInfo {
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
