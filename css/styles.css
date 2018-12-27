@@ -586,6 +586,11 @@ Wszystko przy pomocy RODZICA .double - wskazujemy na daną klasę za pomocą ">"
     font-weight: 700;
     line-height: 38px;
     letter-spacing: 1.25px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    top:50px;
 }
 .top .mont {
     height: 15px;
@@ -595,6 +600,11 @@ Wszystko przy pomocy RODZICA .double - wskazujemy na daną klasę za pomocą ">"
     font-weight: 700;
     line-height: 38px;
     letter-spacing: 0.38px;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    left: 0;
+    margin: auto;
 }
 
 .top span {
@@ -606,6 +616,12 @@ Wszystko przy pomocy RODZICA .double - wskazujemy na daną klasę za pomocą ">"
     font-weight: 700;
     line-height: 38px;
     letter-spacing: 0.5px;
+    position: absolute;
+    top: 60px;
+    left: -90px;
+    right: 0;
+    margin: auto;
+
 }
 
 .top {
