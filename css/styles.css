@@ -686,3 +686,42 @@ Wszystko przy pomocy RODZICA .double - wskazujemy na daną klasę za pomocą ">"
     right: 0;
     top: -5px;
 }
+
+.midded {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 138px;
+    height: 128px;
+    color: #5a5a5a;
+    font-family: 'Lato';
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 38px;
+    letter-spacing: 0.38px;
+}
+
+.midded li {
+    color: #5a5a5a;
+    font-family: 'Lato';
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 36px;
+    letter-spacing: 0.38px;
+    width: 190px;
+    height: 28px;
+}
+
+.midded ul {
+    position: absolute;
+    top: -20px;
+    left: -80px;
+    right: 0;
+    margin: auto;
+    width: 190px;
+    height: 128px;
+    text-align:center;
+    padding-bottom: 10px;
+}
