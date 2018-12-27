@@ -593,7 +593,7 @@ Wszystko przy pomocy RODZICA .double - wskazujemy na daną klasę za pomocą ">"
     right: 0;
     margin: auto;
     position: absolute;
-    top: 50px;
+    top: 40px;
 }
 .top .mont {
     height: 15px;
@@ -604,7 +604,7 @@ Wszystko przy pomocy RODZICA .double - wskazujemy na daną klasę za pomocą ">"
     line-height: 48px;
     letter-spacing: 0.48px;
     position: absolute;
-    top: 80px;
+    top: 70px;
     right: 0;
     left: 30px;
     margin: auto;
@@ -621,7 +621,7 @@ Wszystko przy pomocy RODZICA .double - wskazujemy na daną klasę za pomocą ">"
     line-height: 38px;
     letter-spacing: 0.5px;
     position: absolute;
-    top: 60px;
+    top: 50px;
     left: -50px;
     right: 0;
     margin: auto;
