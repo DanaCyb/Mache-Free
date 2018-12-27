@@ -625,7 +625,6 @@ Wszystko przy pomocy RODZICA .double - wskazujemy na daną klasę za pomocą ">"
     left: -50px;
     right: 0;
     margin: auto;
-
 }
 
 .top {
@@ -636,8 +635,8 @@ Wszystko przy pomocy RODZICA .double - wskazujemy na daną klasę za pomocą ">"
     left: 0;
     right: 0;
     top: -5px;
-
 }
+
 .mid h4 {
     width: 84px;
     height: 12px;
@@ -681,7 +680,7 @@ Wszystko przy pomocy RODZICA .double - wskazujemy na daną klasę za pomocą ">"
 
 .bottom h4 {
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     right: 0;
     margin: auto;
@@ -736,7 +735,7 @@ Wszystko przy pomocy RODZICA .double - wskazujemy na daną klasę za pomocą ">"
 
 .midded ul {
     position: absolute;
-    top: -20px;
+    top: -10px;
     left: -80px;
     right: 0;
     margin: auto;
