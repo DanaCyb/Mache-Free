@@ -808,7 +808,6 @@ Wszystko przy pomocy RODZICA .double - wskazujemy na daną klasę za pomocą ">"
     text-align: left;
 }
 
-
 .info1 h4, .info2 h4, .info3 h4, .info4 h4, .info5 h4, .info6 h4 {
     position: absolute;
     top: 0;
@@ -824,3 +823,12 @@ Wszystko przy pomocy RODZICA .double - wskazujemy na daną klasę za pomocą ">"
     text-align: left;
 }
 
+/*section joinUs*/
+
+#joinUs {
+    background-image: url(../img/Prostok%C4%85t_7.png);
+    background-repeat: no-repeat;
+    height: 100px;
+}
+
+#joinUs
