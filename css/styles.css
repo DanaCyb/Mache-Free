@@ -597,18 +597,6 @@ Wszystko przy pomocy RODZICA .double - wskazujemy na daną klasę za pomocą ">"
     letter-spacing: 0.38px;
 }
 
-.top h4 {
-    width: 84px;
-    height: 12px;
-    color: #5a5a5a;
-    font-family:' Lato';
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 38px;
-    text-transform: uppercase;
-    letter-spacing: 0.38px;
-}
-
 .top span {
     width: 11px;
     height: 19px;
@@ -660,7 +648,33 @@ Wszystko przy pomocy RODZICA .double - wskazujemy na daną klasę za pomocą ">"
 }
 
 .bottom {
+    position: relative;
+    top: 350px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #ed145b;
+}
 
+.bottom h4 {
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-top: 5px;
+    width: 84px;
+    height: 12px;
+    color: #f4f4f4;
+    font-family: 'Lato';
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 38px;
+    text-transform: uppercase;
+    letter-spacing: 0.38px;
 }
 
 .red {
