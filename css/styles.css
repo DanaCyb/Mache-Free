@@ -779,8 +779,7 @@ Wszystko przy pomocy RODZICA .double - wskazujemy na daną klasę za pomocą ">"
 }
 
 #aditionalInfo img {
-    position: absolute;
-    top: 20px;
+
     height: 57px;
     width: 56px;
 }
