@@ -756,6 +756,21 @@ Wszystko przy pomocy RODZICA .double - wskazujemy na daną klasę za pomocą ">"
     position: relative;
 }
 
+.info1, .info2, .info3, .info4, .info5, .info6 {
+    position: absolute;
+    width: 342px;
+    height: 115px;
+    margin: 5px;
+}
+
+.info1, .info2, .info3 {
+    top: 70px;
+}
+
+.info4, .info5, .info6 {
+    top: 260px;
+}
+
 #aditionalInfo img1 {
     float: left;
     position: absolute;
@@ -765,14 +780,7 @@ Wszystko przy pomocy RODZICA .double - wskazujemy na daną klasę za pomocą ">"
     height: 57px;
     width: 56px;
 }
-.info1 {
-    position: absolute;
-    top: 70px;
-    width: 342px;
-    height: 115px;
-    margin: 5px;
 
-}
 
 .info1 p {
     position: absolute;
