@@ -678,5 +678,11 @@ Wszystko przy pomocy RODZICA .double - wskazujemy na daną klasę za pomocą ">"
 }
 
 .red {
-
+    background-color: #ed145b;
+    width: 262px;
+    height: 150px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -5px;
 }
