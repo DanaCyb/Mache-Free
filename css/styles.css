@@ -749,11 +749,12 @@ Wszystko przy pomocy RODZICA .double - wskazujemy na daną klasę za pomocą ">"
 
 #aditionalInfo {
     margin: auto;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 180px;
+    padding-bottom: 280px;
     padding-left: 200px;
     padding-right: 200px;
     position: relative;
+
 }
 
 .info1, .info2, .info3, .info4, .info5, .info6 {
@@ -772,26 +773,18 @@ Wszystko przy pomocy RODZICA .double - wskazujemy na daną klasę za pomocą ">"
     top: 260px;
 }
 
-
-img1, img2, img3, img4, img5, img6 {
-    position: absolute;
+.img1, .img2, .img3, .img4, .img5, .img6 {
     height: 57px;
     width: 56px;
-    top: 30px;
-    left: 0;
 }
 
 #aditionalInfo img {
     float: left;
-
 }
 
-
-
-.info1 p {
+.info1 p, .info2 p, .info3 p, .info4 p, .info5 p, .info6 p {
     position: absolute;
     top: 40px;
-    left: 10px;
     width: 262px;
     height: 74px;
     color: #5a5a5a;
@@ -800,14 +793,14 @@ img1, img2, img3, img4, img5, img6 {
     font-weight: 300;
     line-height: 30px;
     letter-spacing: 0.38px;
-    text-align-last: left;
+    text-align: left;
 }
 
-.info1 h4 {
+
+.info1 h4, .info2 h4, .info3 h4, .info4 h4, .info5 h4, .info6 h4 {
     position: absolute;
-    top: -10px;
-    left: 0;
-    width: 144px;
+    top: 0;
+    width: 180px;
     height: 12px;
     color: #ed145b;
     font-family: 'Lato';
@@ -816,4 +809,6 @@ img1, img2, img3, img4, img5, img6 {
     line-height: 30px;
     text-transform: uppercase;
     letter-spacing: 0.38px;
+    text-align: left;
 }
+
