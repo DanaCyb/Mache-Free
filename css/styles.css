@@ -880,3 +880,43 @@ button {
     position: absolute;
     top: 50px;
 }
+
+/* section news*/
+
+#news {
+    height: 1000px;
+}
+
+.image {
+    position: relative;
+    overflow: hidden;
+    font-size: 30px;
+    margin: 0 auto;
+    width: 360px;
+    height: 250px;
+}
+
+.curtain {
+    position: absolute;
+    width: 370px;
+    height: 250px;
+    background-color: #ed145b;
+    opacity: 0.85;
+    transform: rotate(2deg);
+    left: -2%;
+    margin-top: 240px;
+    transition: .4s ease-in;
+    top: 0;
+}
+
+.text {
+
+}
+
+.text h4 {
+
+}
+
+.text p {
+
+}
