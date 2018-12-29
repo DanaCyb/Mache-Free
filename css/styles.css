@@ -909,6 +909,15 @@ button {
     top: 0;
 }
 
+.image:hover .curtain {
+    margin-top: 0;
+    width: 360px;
+    height: 250px;
+    background-color: #ed145b;
+    opacity: 0.85;
+    color: #fff;
+}
+
 .text {
 
 }
