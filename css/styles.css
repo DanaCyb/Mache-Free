@@ -941,17 +941,33 @@ i {
     height: 390px;
     background-color: #f4f4f4;
     margin: 25px;
+    position: relative;
 }
 
-.text {
-
-
+#news h4 {
+    width: 298px;
+    height: 12px;
+    color: #5a5a5a;
+    font-family: 'Lato';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.38px;
+    margin-top: -20px;
+    text-align: left;
 }
 
-.text h4 {
-
-}
-
-.text p {
+#news p {
+    position: absolute;
+    width: 320px;
+    height: 44px;
+    color: #5a5a5a;
+    font-family: 'Lato';
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0.38px;
+    text-align: left;
 
 }
