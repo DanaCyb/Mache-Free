@@ -892,28 +892,31 @@ Wszystko przy pomocy RODZICA .double - wskazujemy na daną klasę za pomocą ">"
     position: relative;
     overflow: hidden;
     font-size: 30px;
-    margin: 0 auto;
-    width: 360px;
-    height: 250px;
+    margin: 15px;
+    width: 350px;
+    height: 240px;
+    top: -27px;
+    left: -27px;
 }
 
 .curtain {
     position: absolute;
-    width: 370px;
-    height: 250px;
+    width: 360px;
+    height: 240px;
     background-color: #ed145b;
     opacity: 0.85;
-    transform: rotate(2deg);
+    transform: rotate(3deg);
     left: -2%;
-    margin-top: 240px;
+    margin-top: 230px;
     transition: .4s ease-in;
     top: 0;
+
 }
 
 .image:hover .curtain {
     position: absolute;
     margin-top: -10px;
-    width: 390px;
+    width: 370px;
     height: 270px;
     background-color: #ed145b;
     opacity: 0.85;
@@ -933,12 +936,15 @@ i {
 .image:hover i {
     color: #fff;
 }
-
-fa fa-search ico-search {
-
+.back {
+    width: 350px;
+    height: 390px;
+    background-color: #f4f4f4;
+    margin: 25px;
 }
 
 .text {
+
 
 }
 
