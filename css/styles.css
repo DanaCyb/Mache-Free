@@ -1113,7 +1113,6 @@ i {
     display: block;
 }
 
-
 #additionalInfo2 p {
     width: 681px;
     height: 134px;
@@ -1154,4 +1153,87 @@ i {
     left: 0;
     right: 0;
     margin: auto;
+}
+
+/* section downloadNow */
+
+#downloadNow {
+    width: 100%;
+    height: 754px;
+    background-color: #f4f4f4;
+    position: relative;
+}
+
+#downloadNow img {
+    position: absolute;
+    top: 76px;
+    left: 15px;
+    width: 800px;
+    height: 600px;
+}
+
+#downloadNow h3 {
+    width: 440px;
+    height: 87px;
+    color: #5a5a5a;
+    font-family: 'Lato - Light Italic';
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.95px;
+    text-align: left;
+    position: absolute;
+    top: 100px;
+    left: 820px;
+}
+
+#downloadNow h3::after {
+    content:"";
+    position: absolute;
+    width: 200px;
+    top: 120px;
+    left: -240px;
+    right: 0;
+    margin: auto;
+    border: 1px solid #ed145b;
+    display: block;
+}
+
+#downloadNow p {
+    width: 400px;
+    height: 165px;
+    color: #5a5a5a;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0.38px;
+    text-align: left;
+    position: absolute;
+    left: 820px;
+    top: 280px;
+}
+
+#downloadNow button {
+    position: absolute;
+    top: 530px;
+    left: 820px;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #ed145b;
+    border-color: #ed145b;
+}
+
+#downloadNow span{
+    width: 137px;
+    height: 12px;
+    color: #f4f4f4;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 38px;
+    text-transform: uppercase;
+    letter-spacing: 0.38px;
 }
