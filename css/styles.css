@@ -308,7 +308,7 @@ font-family: 'Montserrat', sans-serif;
     padding: 0;
 }
 
-.image {
+#about .image {
     width: 560px;
     height: 430px;
     top: 110px;
@@ -578,8 +578,8 @@ Wszystko przy pomocy RODZICA .double - wskazujemy na daną klasę za pomocą ">"
     left: 0;
     right: 0;
     position: relative;
-
 }
+
 .top .num {
     width: 56px;
     height: 38px;
@@ -595,6 +595,7 @@ Wszystko przy pomocy RODZICA .double - wskazujemy na daną klasę za pomocą ">"
     position: absolute;
     top: 40px;
 }
+
 .top .mont {
     height: 15px;
     color: #f4f4f4;
@@ -869,7 +870,7 @@ Wszystko przy pomocy RODZICA .double - wskazujemy na daną klasę za pomocą ">"
     left: -5px;
 }
 
-button {
+#joinUs button {
     width: 160px;
     height: 50px;
     border-radius: 25px;
@@ -910,9 +911,10 @@ button {
 }
 
 .image:hover .curtain {
-    margin-top: 0;
-    width: 360px;
-    height: 250px;
+    position: absolute;
+    margin-top: -10px;
+    width: 390px;
+    height: 270px;
     background-color: #ed145b;
     opacity: 0.85;
     color: #fff;
