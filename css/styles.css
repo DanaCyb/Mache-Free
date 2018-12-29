@@ -1086,7 +1086,7 @@ i {
 }
 
 #additionalInfo2 h3 {
-    width: 413px;
+    width: 463px;
     height: 35px;
     color: #ffffff;
     font-family: 'Lato - Light Italic';
@@ -1094,7 +1094,25 @@ i {
     font-weight: 400;
     line-height: 52px;
     letter-spacing: 0.95px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-top: 100px;
 }
+
+#additionalInfo2 h3::after {
+    content:"";
+    position: absolute;
+    width: 200px;
+    top: 200px;
+    left: 0;
+    right:0;
+    margin:auto;
+    border: 1px solid #ed145b;
+    display: block;
+}
+
 
 #additionalInfo2 p {
     width: 681px;
@@ -1105,6 +1123,12 @@ i {
     font-weight: 300;
     line-height: 30px;
     letter-spacing: 0.38px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 250px;
+    position: absolute;
 }
 
 #additionalInfo2 span {
@@ -1124,4 +1148,10 @@ i {
     height: 50px;
     border-radius: 25px;
     background-color: #ed145b;
+    border-color: #ed145b;
+    position: absolute;
+    top: 450px;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
