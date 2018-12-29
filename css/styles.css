@@ -901,6 +901,7 @@ Wszystko przy pomocy RODZICA .double - wskazujemy na daną klasę za pomocą ">"
     left: -27px;
 }
 
+/*issued horn */
 .curtain {
     position: absolute;
     width: 360px;
@@ -912,8 +913,10 @@ Wszystko przy pomocy RODZICA .double - wskazujemy na daną klasę za pomocą ">"
     margin-top: 230px;
     transition: .4s ease-in;
     top: 0;
-
 }
+
+/* curtain - zasłona pojawiająca się po najechaniu kursorem na zdjęcie
+Na zdjęciu musi być opcja OVERFLOW:HIDDEN */
 
 .image:hover .curtain {
     position: absolute;
@@ -925,6 +928,8 @@ Wszystko przy pomocy RODZICA .double - wskazujemy na daną klasę za pomocą ">"
     color: #fff;
 }
 
+/* iconka szukania pojawiająca się po postawieniu kurtyny*/
+
 i {
     color: rgba(255, 255, 255, 0);
     position: absolute;
@@ -934,6 +939,8 @@ i {
     top: 45%;
     cursor: pointer;
 }
+
+/* zmiana koloru ikonki szukania na biały po najechaniu kursorem - efekt hover */
 
 .image:hover i {
     color: #fff;
@@ -960,7 +967,7 @@ i {
     text-align: left;
 }
 
-#news p {
+.back p {
     position: absolute;
     width: 320px;
     height: 44px;
@@ -971,26 +978,57 @@ i {
     line-height: 30px;
     letter-spacing: 0.38px;
     text-align: left;
-
 }
+
+/* part of top on the news */
+
 .top2 {
-    height: 250px;
+    height: 300px;
     width: 1000px;
+    text-align: center;
+    position: relative;
+    margin-left: 35px;
+    margin-right: 25px;
+    left: 60px;
+    margin-top: 50px;
 }
 
 .top2 h3 {
     width: 409px;
     height: 35px;
     color: #5a5a5a;
-    font-family: "Lato - Light Italic";
+    font-family: 'Lato';
+    font-style: italic;
     font-size: 38px;
-    font-weight: 400;
+    font-weight: 200;
     line-height: 52px;
     letter-spacing: 0.95px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* red line */
+
+.top2 h3::after {
+    content:"";
+    position: absolute;
+    width: 22px;
+    top: 160px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: block;
+    width: 200px;
+    height: 2px;
+    background-color: #ed145b;
 }
 
 .top2 p {
-    width: 1081px;
+    width: 685px;
     height: 44px;
     color: #5a5a5a;
     font-family: 'Lato';
@@ -998,4 +1036,11 @@ i {
     font-weight: 300;
     line-height: 30px;
     letter-spacing: 0.38px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
 }
