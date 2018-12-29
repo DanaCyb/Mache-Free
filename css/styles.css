@@ -973,3 +973,29 @@ i {
     text-align: left;
 
 }
+.top2 {
+    height: 250px;
+    width: 1000px;
+}
+
+.top2 h3 {
+    width: 409px;
+    height: 35px;
+    color: #5a5a5a;
+    font-family: "Lato - Light Italic";
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0.95px;
+}
+
+.top2 p {
+    width: 1081px;
+    height: 44px;
+    color: #5a5a5a;
+    font-family: 'Lato';
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0.38px;
+}
