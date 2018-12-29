@@ -886,6 +886,8 @@ Wszystko przy pomocy RODZICA .double - wskazujemy na daną klasę za pomocą ">"
 
 #news {
     height: 1000px;
+    margin-left: 35px;
+    margin-right: 25px;
 }
 
 .image {
