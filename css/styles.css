@@ -945,6 +945,7 @@ i {
 .image:hover i {
     color: #fff;
 }
+
 .back {
     width: 350px;
     height: 390px;
@@ -1053,21 +1054,70 @@ i {
 }
 
 .show a {
-
     width: 97px;
     height: 12px;
     color: #ed145b;
     font-family: 'Lato';
     font-size: 15px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 10px;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 0.38px;
 }
 
 .show img {
-
     width: 17px;
     height: 8px;
+    margin-top: 0;
+}
 
+/*section additionalInfo2 */
+
+#additionalInfo2 {
+    background-image: url(../img/Prostok%C4%85t_1_kopia_8.png);
+    background-repeat: no-repeat;
+    width: 2000px;
+    height: 650px;
+}
+
+#additionalInfo2 h3 {
+    width: 413px;
+    height: 35px;
+    color: #ffffff;
+    font-family: 'Lato - Light Italic';
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0.95px;
+}
+
+#additionalInfo2 p {
+    width: 681px;
+    height: 134px;
+    color: #ffffff;
+    font-family: 'Lato';
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0.38px;
+}
+
+#additionalInfo2 span {
+    width: 97px;
+    height: 12px;
+    color: #f4f4f4;
+    font-family: 'Lato';
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 38px;
+    text-transform: uppercase;
+    letter-spacing: 0.38px;
+}
+
+#additionalInfo2 button {
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #ed145b;
+}
