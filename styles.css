@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-image: url(img/Prostok%C4%85t_1_kopia_3.png);
+    background-image: url('img/Prostok%C4%85t_1_kopia_3.png');
     background-size:cover;
     background-repeat: no-repeat;
     max-width: 100%;
