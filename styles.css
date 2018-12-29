@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-image: url(../img/Prostok%C4%85t_1_kopia_3.png);
+    background-image: url(img/Prostok%C4%85t_1_kopia_3.png);
     background-size:cover;
     background-repeat: no-repeat;
     max-width: 100%;
@@ -184,7 +184,7 @@ font-family: 'Montserrat', sans-serif;
 /* section about*/
 
 #about{
-    background-image: url(../img/Prostok%C4%85t_1_kopia.png);
+    background-image: url(img/Prostok%C4%85t_1_kopia.png);
     background-repeat: no-repeat;
     width: 100%;
     height: 1000px;
@@ -193,7 +193,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 #about{
-    background-image: url(../img/Prostok%C4%85t_1_kopia.png);
+    background-image: url(img/Prostok%C4%85t_1_kopia.png);
     background-repeat: no-repeat;
     width: 100%;
     height: 500px;
@@ -420,7 +420,7 @@ font-family: 'Montserrat', sans-serif;
 /* section quotes */
 
 #quotes{
-    background-image: url(../img/Prostok%C4%85t_1_kopia_3.png);
+    background-image: url(img/Prostok%C4%85t_1_kopia_3.png);
     background-repeat: no-repeat;
     width: 100%;
     height: 500px;
@@ -499,7 +499,7 @@ Wszystko przy pomocy RODZICA .double - wskazujemy na daną klasę za pomocą ">"
 /*section prizes */
 
 #prizes {
-    background-image: url(../img/Prostok%C4%85t_9.png);
+    background-image: url(img/Prostok%C4%85t_9.png);
     background-repeat: no-repeat;
     width: 100%;
     height: 1000px;
@@ -827,7 +827,7 @@ Wszystko przy pomocy RODZICA .double - wskazujemy na daną klasę za pomocą ">"
 /*section joinUs*/
 
 #joinUs {
-    background-image: url(../img/Prostok%C4%85t_7.png);
+    background-image: url(img/Prostok%C4%85t_7.png);
     background-repeat: no-repeat;
     height: 150px;
     position: relative;
@@ -1075,7 +1075,7 @@ i {
 /*section additionalInfo2 */
 
 #additionalInfo2 {
-    background-image: url(../img/Prostok%C4%85t_1_kopia_8.png);
+    background-image: url(img/Prostok%C4%85t_1_kopia_8.png);
     background-repeat: no-repeat;
     width: 100%;
     height: 650px;
