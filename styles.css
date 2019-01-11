@@ -84,6 +84,7 @@ nav ul {
     margin-right: 5px;
     list-style-type: none;
     float: right;
+    display: flex;
 }
 
 li {
